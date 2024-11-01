@@ -1,0 +1,6 @@
+# File created by ZBrush
+# ToolType: PolyMesh3D
+# www.zbrush.com
+newmtl defaultMat
+map_Kd Head_Colour.jpg
+map_Kn Head_Normal.jpg

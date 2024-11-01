@@ -1,0 +1,25 @@
+#version 400 core
+
+#define FRAG_COLOR 0
+layout(location = FRAG_COLOR) out vec4 FragColor;
+
+in vec4 VertPosition;
+in vec4 VertNormal;
+in vec4 VertColor;
+in vec4 VertTexture;
+
+uniform vec3 lightPosition;
+
+void main()
+{
+   vec3 P = VertPosition.xyz;
+   vec3 N = normalize(VertNormal.xyz);
+   vec3 L = normalize(lightPosition - P);
+   
+   float gv = 1.1;
+   vec4 color = vec4(gv, gv, gv, 1.0);
+   float d = max(0, dot(N, L));
+   color.xyz *= d;
+	
+   FragColor = color;
+}
