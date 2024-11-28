@@ -44,7 +44,8 @@
 
 ## Disclaimer
 
-In our live demo at SIGGRAPH Asia 2024, we include renderings based on Adobe in-house data, with all visual content subject to copyright regulations. For this code release, we have replaced the in-house data with renderings from USC-HairSalon, a dataset containing less diversity and complexity that may affect the performance of our program.
+1. In our live demo at SIGGRAPH Asia 2024, we include renderings based on Adobe in-house data, with all visual content subject to copyright regulations. For this code release, we have replaced the in-house data with renderings from USC-HairSalon, a dataset containing less diversity and complexity that may affect the performance of our program.
+2. Due to license issues, we could not include our head mesh in this repo. Please download it from [this link](https://www.avatarneo.com/PinscreenGenericHeadModel.obj) (created by [AVATAR NEO](https://avatarneo.com/)), rename it to `head.obj`, and put it under `data/meshes` before compiling our program.
 
 ## Installation
 
@@ -74,7 +75,6 @@ Detailed physical parameters can be tuned within the provided GUI. Recordings of
 
 ## Acknowledgements
 
-- Our default head mesh is created by [AVATAR NEO](https://avatarneo.com/) and can be downloaded from [this link](https://www.avatarneo.com/PinscreenGenericHeadModel.obj). Please rename it to `head.obj` and put it under `data/meshes` before compiling our program.
 - Our default hairstyle (Jewfro) is adopted from [CT2Hair](https://yuefanshen.net/CTHair). We aligned it with our head mesh and resampled it to ~10k strands.
 
 ## Citation
