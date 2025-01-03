@@ -91,7 +91,7 @@ float VSM(vec4 smcoord, sampler2D sm)
 	vec3 coords = smcoord.xyz / smcoord.w ;    
 
     if(smcoord.z < 1)
-        return 1;
+        return 1.0;
 
     float depth = coords.z;
     
