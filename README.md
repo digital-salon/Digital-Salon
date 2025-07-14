@@ -81,11 +81,22 @@ Detailed physical parameters can be tuned within the provided GUI. Recordings of
 
 If you found this code useful, please consider citing:
 ```bibtex
-@article{digitalsalon,
+@article{he2025digital,
+    author={He, Chengan and Amador Herrera, Jorge Alejandro and Shu, Zhixin and Sun, Xin and Feng, Yao and Pirk, S\"{o}ren and Michels, Dominik L. and Zhang, Meng and Wang, Tuanfeng Y. and Dorsey, Julie and Rushmeier, Holly, and Zhou, Yi},
     title={Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation},
-    author={He, Chengan and Herrera, Jorge Alejandro Amador and Zhou, Yi and Shu, Zhixin and Sun, Xin and Feng, Yao and Pirk, S{\"o}ren and Michels, Dominik L and Zhang, Meng and Wang, Tuanfeng Y and Rushmeier, Holly},
-    url={https://digital-salon.github.io/},
-    year={2024}
+    journal={arXiv preprint arXiv:2507.07387},
+    year={2025}
+}
+
+@inproceedings{digitalsalon,
+    author = {He, Chengan and Amador Herrera, Jorge Alejandro and Zhou, Yi and Shu, Zhixin and Sun, Xin and Feng, Yao and Pirk, S\"{o}ren and Michels, Dominik L. and Zhang, Meng and Wang, Tuanfeng Y. and Rushmeier, Holly},
+    title = {Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation},
+    year = {2024},
+    booktitle = {SIGGRAPH Asia 2024 Real-Time Live!},
+    articleno = {4},
+    numpages = {1},
+    location = {Tokyo, Japan},
+    series = {SA Real-Time Live! '24}
 }
 ```
 
